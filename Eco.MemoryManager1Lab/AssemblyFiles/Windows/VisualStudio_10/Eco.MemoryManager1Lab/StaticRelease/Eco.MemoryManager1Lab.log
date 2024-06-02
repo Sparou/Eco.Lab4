@@ -1,0 +1,23 @@
+﻿Build started 29.05.2024 18:40:22.
+     1>Project "C:\Eco.Lab\Eco.Lab4\Eco.MemoryManager1Lab\AssemblyFiles\Windows\VisualStudio_10\Eco.MemoryManager1Lab.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Eco.MemoryManager1Lab\StaticRelease\Eco.MemoryManager1Lab.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Eco.MemoryManager1Lab\StaticRelease\Eco.MemoryManager1Lab.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\HeaderFiles /I..\..\..\SharedFiles /IC:\Eco.Framework\Eco.Core1\SharedFiles /IC:\Eco.Framework\Eco.InterfaceBus1\SharedFiles /IC:\Eco.Framework\Eco.System1\SharedFiles /IC:\Eco.Framework\Eco.MemoryManager1\SharedFiles /IC:\Eco.Framework\Eco.FileSystemManagement1\SharedFiles /IC:\Eco.Framework\Eco.List1\SharedFiles /IC:\Eco.Framework\Eco.IPCC.Mailbox1\SharedFiles /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D UGUID_UTILITY /D ECO_WINDOWS /D ECO_WIN32 /D ECO_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Eco.MemoryManager1Lab\StaticRelease\\" /Fd"Eco.MemoryManager1Lab\StaticRelease\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt ..\..\..\SourceFiles\CEcoMemoryManager1Lab.c ..\..\..\SourceFiles\CEcoMemoryManager1LabFactory.c
+         CEcoMemoryManager1Lab.c
+         CEcoMemoryManager1LabFactory.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Eco.Lab\Eco.Lab4\Eco.MemoryManager1Lab\AssemblyFiles\Windows\VisualStudio_10\Eco.MemoryManager1Lab\StaticRelease\81589BFED0B84B1194524BEE623E1838.lib) does not match the Library's OutputFile property value (C:\Eco.Lab\Eco.Lab4\Eco.MemoryManager1Lab\BuildFiles\Windows\x86\StaticRelease\81589BFED0B84B1194524BEE623E1838.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         c:\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\..\BuildFiles\Windows\x86\StaticRelease\81589BFED0B84B1194524BEE623E1838.lib" /NOLOGO /LTCG Eco.MemoryManager1Lab\StaticRelease\CEcoMemoryManager1Lab.obj
+         Eco.MemoryManager1Lab\StaticRelease\CEcoMemoryManager1LabFactory.obj
+         Eco.MemoryManager1Lab.vcxproj -> C:\Eco.Lab\Eco.Lab4\Eco.MemoryManager1Lab\AssemblyFiles\Windows\VisualStudio_10\Eco.MemoryManager1Lab\StaticRelease\81589BFED0B84B1194524BEE623E1838.lib
+       FinalizeBuildStatus:
+         Deleting file "Eco.MemoryManager1Lab\StaticRelease\Eco.MemoryManager1Lab.unsuccessfulbuild".
+         Touching "Eco.MemoryManager1Lab\StaticRelease\Eco.MemoryManager1Lab.lastbuildstate".
+     1>Done Building Project "C:\Eco.Lab\Eco.Lab4\Eco.MemoryManager1Lab\AssemblyFiles\Windows\VisualStudio_10\Eco.MemoryManager1Lab.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.68

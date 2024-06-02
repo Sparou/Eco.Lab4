@@ -1,0 +1,28 @@
+﻿Build started 29.05.2024 18:42:15.
+     1>Project "C:\Eco.Lab\Eco.Lab4\Eco.Mutex1Lab\AssemblyFiles\Windows\VisualStudio_10\Eco.Mutex1LabUnitTest.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Eco.Mutex1LabUnitTest\StaticRelease\Eco.Mutex1LabUnitTest.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Eco.Mutex1LabUnitTest\StaticRelease\Eco.Mutex1LabUnitTest.unsuccessfulbuild".
+       ClCompile:
+         c:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\HeaderFiles /I..\..\..\SharedFiles /IC:\Eco.Framework\Eco.Core1\SharedFiles /IC:\Eco.Framework\Eco.InterfaceBus1\SharedFiles /IC:\Eco.Framework\Eco.System1\SharedFiles /IC:\Eco.Framework\Eco.MemoryManager1\SharedFiles /IC:\Eco.Framework\Eco.FileSystemManagement1\SharedFiles /IC:\Eco.Framework\Eco.List1\SharedFiles /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D UGUID_UTILITY /D ECO_WINDOWS /D ECO_WIN32 /D ECO_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Eco.Mutex1LabUnitTest\StaticRelease\\" /Fd"Eco.Mutex1LabUnitTest\StaticRelease\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt ..\..\..\UnitTestFiles\SourceFiles\EcoMutex1Lab.c
+         EcoMutex1Lab.c
+     1>..\..\..\UnitTestFiles\SourceFiles\EcoMutex1Lab.c(50): error C2065: 'IEcoMutex1Lab' : undeclared identifier
+     1>..\..\..\UnitTestFiles\SourceFiles\EcoMutex1Lab.c(50): error C2065: 'pIEcoMutex1Lab' : undeclared identifier
+     1>..\..\..\UnitTestFiles\SourceFiles\EcoMutex1Lab.c(50): error C2106: '=' : left operand must be l-value
+     1>..\..\..\UnitTestFiles\SourceFiles\EcoMutex1Lab.c(92): error C2065: 'IID_IEcoMutex1Lab' : undeclared identifier
+     1>..\..\..\UnitTestFiles\SourceFiles\EcoMutex1Lab.c(92): warning C4133: 'function' : incompatible types - from 'int *' to 'const UGUID *'
+     1>..\..\..\UnitTestFiles\SourceFiles\EcoMutex1Lab.c(92): error C2065: 'pIEcoMutex1Lab' : undeclared identifier
+     1>..\..\..\UnitTestFiles\SourceFiles\EcoMutex1Lab.c(93): error C2065: 'pIEcoMutex1Lab' : undeclared identifier
+     1>..\..\..\UnitTestFiles\SourceFiles\EcoMutex1Lab.c(99): error C2065: 'pIEcoMutex1Lab' : undeclared identifier
+     1>..\..\..\UnitTestFiles\SourceFiles\EcoMutex1Lab.c(99): error C2223: left of '->pVTbl' must point to struct/union
+     1>..\..\..\UnitTestFiles\SourceFiles\EcoMutex1Lab.c(99): error C2065: 'pIEcoMutex1Lab' : undeclared identifier
+     1>..\..\..\UnitTestFiles\SourceFiles\EcoMutex1Lab.c(118): error C2065: 'pIEcoMutex1Lab' : undeclared identifier
+     1>..\..\..\UnitTestFiles\SourceFiles\EcoMutex1Lab.c(119): error C2065: 'pIEcoMutex1Lab' : undeclared identifier
+     1>..\..\..\UnitTestFiles\SourceFiles\EcoMutex1Lab.c(119): error C2223: left of '->pVTbl' must point to struct/union
+     1>..\..\..\UnitTestFiles\SourceFiles\EcoMutex1Lab.c(119): error C2065: 'pIEcoMutex1Lab' : undeclared identifier
+     1>Done Building Project "C:\Eco.Lab\Eco.Lab4\Eco.Mutex1Lab\AssemblyFiles\Windows\VisualStudio_10\Eco.Mutex1LabUnitTest.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.29

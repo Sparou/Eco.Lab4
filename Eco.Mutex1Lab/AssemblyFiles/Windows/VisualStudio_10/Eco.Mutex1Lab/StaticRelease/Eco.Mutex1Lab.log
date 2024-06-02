@@ -1,0 +1,23 @@
+﻿Build started 29.05.2024 18:43:25.
+     1>Project "C:\Eco.Lab\Eco.Lab4\Eco.Mutex1Lab\AssemblyFiles\Windows\VisualStudio_10\Eco.Mutex1Lab.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Eco.Mutex1Lab\StaticRelease\Eco.Mutex1Lab.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Eco.Mutex1Lab\StaticRelease\Eco.Mutex1Lab.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\HeaderFiles /I..\..\..\SharedFiles /IC:\Eco.Framework\Eco.Core1\SharedFiles /IC:\Eco.Framework\Eco.InterfaceBus1\SharedFiles /IC:\Eco.Framework\Eco.System1\SharedFiles /IC:\Eco.Framework\Eco.MemoryManager1\SharedFiles /IC:\Eco.Framework\Eco.FileSystemManagement1\SharedFiles /IC:\Eco.Framework\Eco.List1\SharedFiles /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D UGUID_UTILITY /D ECO_WINDOWS /D ECO_WIN32 /D ECO_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Eco.Mutex1Lab\StaticRelease\\" /Fd"Eco.Mutex1Lab\StaticRelease\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt ..\..\..\SourceFiles\CEcoMutex1Lab.c ..\..\..\SourceFiles\CEcoMutex1LabFactory.c
+         CEcoMutex1Lab.c
+         CEcoMutex1LabFactory.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Eco.Lab\Eco.Lab4\Eco.Mutex1Lab\AssemblyFiles\Windows\VisualStudio_10\Eco.Mutex1Lab\StaticRelease\2F48BBCBE4884CC08ECFC45990017215.lib) does not match the Library's OutputFile property value (C:\Eco.Lab\Eco.Lab4\Eco.Mutex1Lab\BuildFiles\Windows\x86\StaticRelease\2F48BBCBE4884CC08ECFC45990017215.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         c:\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\..\BuildFiles\Windows\x86\StaticRelease\2F48BBCBE4884CC08ECFC45990017215.lib" /NOLOGO /LTCG Eco.Mutex1Lab\StaticRelease\CEcoMutex1Lab.obj
+         Eco.Mutex1Lab\StaticRelease\CEcoMutex1LabFactory.obj
+         Eco.Mutex1Lab.vcxproj -> C:\Eco.Lab\Eco.Lab4\Eco.Mutex1Lab\AssemblyFiles\Windows\VisualStudio_10\Eco.Mutex1Lab\StaticRelease\2F48BBCBE4884CC08ECFC45990017215.lib
+       FinalizeBuildStatus:
+         Deleting file "Eco.Mutex1Lab\StaticRelease\Eco.Mutex1Lab.unsuccessfulbuild".
+         Touching "Eco.Mutex1Lab\StaticRelease\Eco.Mutex1Lab.lastbuildstate".
+     1>Done Building Project "C:\Eco.Lab\Eco.Lab4\Eco.Mutex1Lab\AssemblyFiles\Windows\VisualStudio_10\Eco.Mutex1Lab.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.67

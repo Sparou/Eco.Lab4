@@ -1,0 +1,18 @@
+﻿Build started 29.05.2024 16:05:51.
+     1>Project "C:\Eco.Lab\Eco.Lab4\Eco.MemoryManager1Lab\AssemblyFiles\Windows\VisualStudio_10\Eco.MemoryManager1Lab.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Eco.MemoryManager1Lab\DynamicDebug\Eco.MemoryManager1Lab.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Eco.MemoryManager1Lab\DynamicDebug\Eco.MemoryManager1Lab.unsuccessfulbuild".
+       ClCompile:
+         c:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\HeaderFiles /I..\..\..\SharedFiles /IC:\Eco.Framework\Eco.Core1\SharedFiles /IC:\Eco.Framework\Eco.InterfaceBus1\SharedFiles /IC:\Eco.Framework\Eco.System1\SharedFiles /IC:\Eco.Framework\Eco.MemoryManager1\SharedFiles /IC:\Eco.Framework\Eco.FileSystemManagement1\SharedFiles /IC:\Eco.Framework\Eco.List1\SharedFiles /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D ECO_WINDOWS /D ECO_WIN32 /D UGUID_UTILITY /D ECO_DLL /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Eco.MemoryManager1Lab\DynamicDebug\\" /Fd"Eco.MemoryManager1Lab\DynamicDebug\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt ..\..\..\SourceFiles\CEcoMemoryManager1Lab.c ..\..\..\SourceFiles\CEcoMemoryManager1LabFactory.c
+         CEcoMemoryManager1LabFactory.c
+     1>c:\eco.lab\eco.lab4\eco.memorymanager1lab\headerfiles\cecomemorymanager1lab.h(28): fatal error C1083: Cannot open include file: 'IdEcoIPCCMailbox1.h': No such file or directory
+         CEcoMemoryManager1Lab.c
+     1>c:\eco.lab\eco.lab4\eco.memorymanager1lab\headerfiles\cecomemorymanager1lab.h(28): fatal error C1083: Cannot open include file: 'IdEcoIPCCMailbox1.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Eco.Lab\Eco.Lab4\Eco.MemoryManager1Lab\AssemblyFiles\Windows\VisualStudio_10\Eco.MemoryManager1Lab.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.16

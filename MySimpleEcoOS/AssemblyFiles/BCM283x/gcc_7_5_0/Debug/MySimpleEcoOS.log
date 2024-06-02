@@ -1,0 +1,55 @@
+﻿Build started 02.06.2024 16:57:03.
+     1>Project "G:\Developings\Eco.Lab4\MySimpleEcoOS\AssemblyFiles\BCM283x\gcc_7_5_0\MySimpleEcoOS.vcxproj" on node 2 (build target(s)).
+     1>Build:
+         make
+         G:\Developings\toolchain\\gcc-linaro-7.5.0\\bin\\aarch64-elf-gcc -Wall -std=gnu89 -Wno-missing-braces -march=armv8-a+simd -mtune=cortex-a53 -mstrict-align -fno-tree-loop-vectorize -fno-tree-slp-vectorize -DECO_LIB -DECO_BCM283X -DUGUID_UTILITY -I ..\\..\\..\\HeaderFiles -I ..\\..\\..\\SharedFiles -I G:\\Developings\\Eco.Lab4\\Eco.Mutex1Lab\\SharedFiles -I G:\\Developings\\Eco.Lab4\\Eco.Semaphore1Lab\\SharedFiles -I G:\\Developings\\Eco.Lab4\\Eco.TaskScheduler1Lab\\SharedFiles -I G:\\Developings\\Eco.Lab4\\Eco.MemoryManager1Lab\\SharedFiles -I G:\Developings\Eco.Framework\\Eco.IPCC.Mailbox1\\SharedFiles -I G:\Developings\Eco.Framework\\Eco.CGI1\\SharedFiles -I G:\Developings\Eco.Framework\\Eco.VFB1\\SharedFiles -I G:\Developings\Eco.Framework\\Eco.Core1\\SharedFiles -I G:\Developings\Eco.Framework\\Eco.InterfaceBus1\\SharedFiles -I G:\Developings\Eco.Framework\\Eco.Timer1\\SharedFiles -I G:\Developings\Eco.Framework\\Eco.InterruptController1\\SharedFiles -I G:\Developings\Eco.Framework\\Eco.TaskScheduler1\\SharedFiles -I G:\Developings\Eco.Framework\\Eco.MemoryManager1\\SharedFiles -I G:\Developings\Eco.Framework\\Eco.FileSystemManagement1\\SharedFiles -I G:\Developings\Eco.Framework\\Eco.String1\\SharedFiles -nostartfiles -ffreestanding -fno-asynchronous-unwind-tables -fomit-frame-pointer  -Wl,-Map,kernel.map -Wl,-T,startup.ld   -o kernel.elf ..\\..\\..\\SourceFiles\\MySimpleEcoOS.c ..\\..\\..\\SourceFiles\\entry.S -static -L ..\\..\\..\\BuildFiles\\BCM283x\\arm64-v8a\\StaticRelease -L G:\\Developings\\Eco.Lab4\\Eco.Mutex1Lab\\BuildFiles\\BCM283x\\arm64-v8a\\StaticRelease -L G:\\Developings\\Eco.Lab4\\Eco.Semaphore1Lab\\BuildFiles\\BCM283x\\arm64-v8a\\StaticRelease -L G:\\Developings\\Eco.Lab4\\Eco.TaskScheduler1Lab\\BuildFiles\\BCM283x\\arm64-v8a\\StaticRelease -L G:\\Developings\\Eco.Lab4\\Eco.MemoryManager1Lab\\BuildFiles\\BCM283x\\arm64-v8a\\StaticRelease -L G:\Developings\Eco.Framework\\Eco.IPCC.Mailbox1\\BuildFiles\\BCM283x\\arm64-v8a\\StaticRelease -L G:\Developings\Eco.Framework\\Eco.VFB1\\BuildFiles\\BCM283x\\arm64-v8a\\StaticRelease -L G:\Developings\Eco.Framework\\Eco.Timer1\\BuildFiles\\BCM283x\\arm64-v8a\\StaticRelease -L G:\Developings\Eco.Framework\\Eco.InterruptController1\\BuildFiles\\BCM283x\\arm64-v8a\\StaticRelease -L G:\Developings\Eco.Framework\\Eco.InterfaceBus1\\BuildFiles\\BCM283x\\arm64-v8a\\StaticRelease -L G:\Developings\Eco.Framework\\Eco.TaskScheduler1\\BuildFiles\\BCM283x\\arm64-v8a\\StaticRelease -L G:\Developings\Eco.Framework\\Eco.FileSystemManagement1\\BuildFiles\\BCM283x\\arm64-v8a\\StaticRelease -L G:\Developings\Eco.Framework\\Eco.MemoryManager1\\BuildFiles\\BCM283x\\arm64-v8a\\StaticRelease -L G:\Developings\Eco.Framework\\Eco.String1\\BuildFiles\\BCM283x\\arm64-v8a\\StaticRelease -l0000000000000000000000004D656D31 -lF10BC39A4F2143CF8A1E104650A2C302 -l84CC0A7DBABD44EEBE749C9A8312D37E -l902ABA722D34417BB714322CC761620F -l8DB93F3DF5B947D4A67F7C100B569723 -l939B1DCDB6404F7D9C072291AF252188 -l00000000000000000000000042757331 -l81589BFED0B84B1194524BEE623E1838 -lc -lm -lgcc  
+         ..\..\..\SourceFiles\MySimpleEcoOS.c: In function 'EcoMain':
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:334:50: warning: passing argument 3 of 'pIScheduler->pVTbl->NewTask' makes pointer from integer without a cast [-Wint-conversion]
+           pIScheduler->pVTbl->NewTask(pIScheduler, Task1, times[0], 0x100, &pITask1);
+                                                           ^~~~~
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:334:50: note: expected 'voidptr_t {aka void *}' but argument is of type 'uint32_t {aka unsigned int}'
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:335:50: warning: passing argument 3 of 'pIScheduler->pVTbl->NewTask' makes pointer from integer without a cast [-Wint-conversion]
+           pIScheduler->pVTbl->NewTask(pIScheduler, Task2, times[1], 0x100, &pITask2);
+                                                           ^~~~~
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:335:50: note: expected 'voidptr_t {aka void *}' but argument is of type 'uint32_t {aka unsigned int}'
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:336:50: warning: passing argument 3 of 'pIScheduler->pVTbl->NewTask' makes pointer from integer without a cast [-Wint-conversion]
+           pIScheduler->pVTbl->NewTask(pIScheduler, Task3, times[2], 0x100, &pITask3);
+                                                           ^~~~~
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:336:50: note: expected 'voidptr_t {aka void *}' but argument is of type 'uint32_t {aka unsigned int}'
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:337:50: warning: passing argument 3 of 'pIScheduler->pVTbl->NewTask' makes pointer from integer without a cast [-Wint-conversion]
+           pIScheduler->pVTbl->NewTask(pIScheduler, Task4, times[3], 0x100, &pITask4);
+                                                           ^~~~~
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:337:50: note: expected 'voidptr_t {aka void *}' but argument is of type 'uint32_t {aka unsigned int}'
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:225:12: warning: unused variable 'color' [-Wunused-variable]
+              byte_t color = 170; /* 3-3-2 bit RGB */
+                     ^~~~~
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:224:14: warning: unused variable 'x2' [-Wunused-variable]
+              uint16_t x2 = 70;
+                       ^~
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:223:14: warning: unused variable 'y1' [-Wunused-variable]
+              uint16_t y1 = 32;
+                       ^~
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:222:14: warning: unused variable 'x1' [-Wunused-variable]
+              uint16_t x1 = 0;
+                       ^~
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:221:14: warning: unused variable 'offset' [-Wunused-variable]
+              uint16_t offset = 0;
+                       ^~~~~~
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:220:13: warning: unused variable 'strHello' [-Wunused-variable]
+              char_t* strHello = "Hello, World!";
+                      ^~~~~~~~
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:202:13: warning: unused variable 'pITask5' [-Wunused-variable]
+           IEcoTask1* pITask5 = 0;
+                      ^~~~~~~
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:195:25: warning: unused variable 'pIVrtMem' [-Wunused-variable]
+              IEcoVirtualMemory1* pIVrtMem = 0;
+                                  ^~~~~~~~
+     1>g:/developings/toolchain/gcc-linaro-7.5.0/bin/../lib/gcc/aarch64-elf/7.5.0/../../../../aarch64-elf/bin/ld.exe : warning : .note.gnu.build-id section discarded, --build-id ignored.
+         G:\Developings\toolchain\\gcc-linaro-7.5.0\\bin\\aarch64-elf-objdump -d kernel.elf > kernel.list
+         G:\Developings\toolchain\\gcc-linaro-7.5.0\\bin\\aarch64-elf-objcopy kernel.elf -O binary kernel8.img
+         G:\Developings\toolchain\\gcc-linaro-7.5.0\\bin\\aarch64-elf-nm -n kernel.elf > kernel.map
+     1>Done Building Project "G:\Developings\Eco.Lab4\MySimpleEcoOS\AssemblyFiles\BCM283x\gcc_7_5_0\MySimpleEcoOS.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.43

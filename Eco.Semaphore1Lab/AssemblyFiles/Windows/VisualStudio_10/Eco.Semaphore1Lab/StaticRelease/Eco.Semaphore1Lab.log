@@ -1,0 +1,23 @@
+﻿Build started 29.05.2024 18:44:03.
+     1>Project "C:\Eco.Lab\Eco.Lab4\Eco.Semaphore1Lab\AssemblyFiles\Windows\VisualStudio_10\Eco.Semaphore1Lab.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Eco.Semaphore1Lab\StaticRelease\Eco.Semaphore1Lab.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Eco.Semaphore1Lab\StaticRelease\Eco.Semaphore1Lab.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\HeaderFiles /I..\..\..\SharedFiles /IC:\Eco.Framework\Eco.Core1\SharedFiles /IC:\Eco.Framework\Eco.InterfaceBus1\SharedFiles /IC:\Eco.Framework\Eco.System1\SharedFiles /IC:\Eco.Framework\Eco.MemoryManager1\SharedFiles /IC:\Eco.Framework\Eco.FileSystemManagement1\SharedFiles /IC:\Eco.Framework\Eco.List1\SharedFiles /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D UGUID_UTILITY /D ECO_WINDOWS /D ECO_WIN32 /D ECO_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Eco.Semaphore1Lab\StaticRelease\\" /Fd"Eco.Semaphore1Lab\StaticRelease\vc100.pdb" /Gz /TC /analyze- /errorReport:prompt ..\..\..\SourceFiles\CEcoSemaphore1Lab.c ..\..\..\SourceFiles\CEcoSemaphore1LabFactory.c
+         CEcoSemaphore1Lab.c
+         CEcoSemaphore1LabFactory.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Eco.Lab\Eco.Lab4\Eco.Semaphore1Lab\AssemblyFiles\Windows\VisualStudio_10\Eco.Semaphore1Lab\StaticRelease\0741985B8FD0476C867CAE177CD26E7C.lib) does not match the Library's OutputFile property value (C:\Eco.Lab\Eco.Lab4\Eco.Semaphore1Lab\BuildFiles\Windows\x86\StaticRelease\0741985B8FD0476C867CAE177CD26E7C.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         c:\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\..\..\BuildFiles\Windows\x86\StaticRelease\0741985B8FD0476C867CAE177CD26E7C.lib" /NOLOGO /LTCG Eco.Semaphore1Lab\StaticRelease\CEcoSemaphore1Lab.obj
+         Eco.Semaphore1Lab\StaticRelease\CEcoSemaphore1LabFactory.obj
+         Eco.Semaphore1Lab.vcxproj -> C:\Eco.Lab\Eco.Lab4\Eco.Semaphore1Lab\AssemblyFiles\Windows\VisualStudio_10\Eco.Semaphore1Lab\StaticRelease\0741985B8FD0476C867CAE177CD26E7C.lib
+       FinalizeBuildStatus:
+         Deleting file "Eco.Semaphore1Lab\StaticRelease\Eco.Semaphore1Lab.unsuccessfulbuild".
+         Touching "Eco.Semaphore1Lab\StaticRelease\Eco.Semaphore1Lab.lastbuildstate".
+     1>Done Building Project "C:\Eco.Lab\Eco.Lab4\Eco.Semaphore1Lab\AssemblyFiles\Windows\VisualStudio_10\Eco.Semaphore1Lab.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.68

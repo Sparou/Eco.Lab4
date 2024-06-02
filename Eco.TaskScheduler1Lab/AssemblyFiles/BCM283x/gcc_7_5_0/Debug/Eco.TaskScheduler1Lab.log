@@ -1,0 +1,24 @@
+﻿Build started 27.05.2024 12:15:15.
+     1>Project "C:\Eco.Lab\Eco.Lab4\Eco.TaskScheduler1Lab\AssemblyFiles\BCM283x\gcc_7_5_0\Eco.TaskScheduler1Lab.vcxproj" on node 2 (rebuild target(s)).
+     1>CoreClean:
+         make clean
+         rm -f ..\\..\\..\\SourceFiles\\CEcoTask1Lab.o ..\\..\\..\\SourceFiles\\CEcoTaskScheduler1Lab.o ..\\..\\..\\SourceFiles\\CEcoTaskScheduler1LabFactory.o ..\\..\\..\\BuildFiles\\BCM283x\\arm64-v8a\\StaticRelease\\lib902ABA722D34417BB714322CC761620F.a
+         process_begin: CreateProcess(NULL, rm -f ..\..\..\SourceFiles\CEcoTask1Lab.o ..\..\..\SourceFiles\CEcoTaskScheduler1Lab.o ..\..\..\SourceFiles\CEcoTaskScheduler1LabFactory.o ..\..\..\BuildFiles\BCM283x\arm64-v8a\StaticRelease\lib902ABA722D34417BB714322CC761620F.a, ...) failed.
+         make (e=2): ═х єфрхЄё  эрщЄш єърчрээ√щ Їрщы.
+         
+         make: [clean] ╬°шсър 2 (шуэюЁшЁютрэр)
+       PrepareForBuild:
+         Creating directory "obj\Win32\Debug\".
+       Rebuild:
+         make clean all
+         rm -f ..\\..\\..\\SourceFiles\\CEcoTask1Lab.o ..\\..\\..\\SourceFiles\\CEcoTaskScheduler1Lab.o ..\\..\\..\\SourceFiles\\CEcoTaskScheduler1LabFactory.o ..\\..\\..\\BuildFiles\\BCM283x\\arm64-v8a\\StaticRelease\\lib902ABA722D34417BB714322CC761620F.a
+         process_begin: CreateProcess(NULL, rm -f ..\..\..\SourceFiles\CEcoTask1Lab.o ..\..\..\SourceFiles\CEcoTaskScheduler1Lab.o ..\..\..\SourceFiles\CEcoTaskScheduler1LabFactory.o ..\..\..\BuildFiles\BCM283x\arm64-v8a\StaticRelease\lib902ABA722D34417BB714322CC761620F.a, ...) failed.
+         make (e=2): ═х єфрхЄё  эрщЄш єърчрээ√щ Їрщы.
+         
+         make: [clean] ╬°шсър 2 (шуэюЁшЁютрэр)
+         C:\Eco.Toolchain/gcc-linaro-7.5.0/bin/aarch64-elf-ar -rcs ..\\..\\..\\BuildFiles\\BCM283x\\arm64-v8a\\StaticRelease\\lib902ABA722D34417BB714322CC761620F.a ..\\..\\..\\SourceFiles\\CEcoTask1Lab.o ..\\..\\..\\SourceFiles\\CEcoTaskScheduler1Lab.o ..\\..\\..\\SourceFiles\\CEcoTaskScheduler1LabFactory.o
+     1>Done Building Project "C:\Eco.Lab\Eco.Lab4\Eco.TaskScheduler1Lab\AssemblyFiles\BCM283x\gcc_7_5_0\Eco.TaskScheduler1Lab.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.06

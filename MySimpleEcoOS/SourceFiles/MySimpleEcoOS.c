@@ -155,22 +155,6 @@ void Task4() {
 	++write_row;
 }
 
-void Task5() {
-    uint64_t currentTime = g_pISysTimer->pVTbl->get_SingleTimerCounter(g_pISysTimer);
-    uint64_t endTime = currentTime +  6000000ul;
-    uint64_t changeTime = currentTime;
-    g_pIVFB->pVTbl->WriteString(g_pIVFB, 0, 0, 32, write_row, CHARACTER_ATTRIBUTE_FORE_COLOR_WHITTE, "5", 1);
-    while ( endTime >= currentTime) {
-        if (changeTime <= currentTime) {
-            printProgress();
-            changeTime += 50000ul;
-        }
-        currentTime = g_pISysTimer->pVTbl->get_SingleTimerCounter(g_pISysTimer);
-    }
-	g_pIVFB->pVTbl->WriteString(g_pIVFB, 0, 0, 36, write_row, CHARACTER_ATTRIBUTE_FORE_COLOR_GREEN, "COMPLETE_5", 10);
-	++write_row;
-}
-
 /*
  *
  * <сводка>

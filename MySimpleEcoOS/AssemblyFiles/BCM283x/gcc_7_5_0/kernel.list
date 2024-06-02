@@ -319,8 +319,8 @@ Disassembly of section .text:
    809a4:	d63f0020 	blr	x1
    809a8:	f90017e0 	str	x0, [sp, #40]
    809ac:	f94017e1 	ldr	x1, [sp, #40]
-   809b0:	d2896800 	mov	x0, #0x4b40                	// #19264
-   809b4:	f2a00980 	movk	x0, #0x4c, lsl #16
+   809b0:	d2824000 	mov	x0, #0x1200                	// #4608
+   809b4:	f2a00f40 	movk	x0, #0x7a, lsl #16
    809b8:	8b000020 	add	x0, x1, x0
    809bc:	f9000fe0 	str	x0, [sp, #24]
    809c0:	f94017e0 	ldr	x0, [sp, #40]
@@ -418,8 +418,8 @@ Disassembly of section .text:
    80b28:	d63f0020 	blr	x1
    80b2c:	f90017e0 	str	x0, [sp, #40]
    80b30:	f94017e1 	ldr	x1, [sp, #40]
-   80b34:	d298d800 	mov	x0, #0xc6c0                	// #50880
-   80b38:	f2a005a0 	movk	x0, #0x2d, lsl #16
+   80b34:	d2812000 	mov	x0, #0x900                 	// #2304
+   80b38:	f2a007a0 	movk	x0, #0x3d, lsl #16
    80b3c:	8b000020 	add	x0, x1, x0
    80b40:	f9000fe0 	str	x0, [sp, #24]
    80b44:	f94017e0 	ldr	x0, [sp, #40]
@@ -517,8 +517,8 @@ Disassembly of section .text:
    80cac:	d63f0020 	blr	x1
    80cb0:	f90017e0 	str	x0, [sp, #40]
    80cb4:	f94017e1 	ldr	x1, [sp, #40]
-   80cb8:	d2824000 	mov	x0, #0x1200                	// #4608
-   80cbc:	f2a00f40 	movk	x0, #0x7a, lsl #16
+   80cb8:	d2896800 	mov	x0, #0x4b40                	// #19264
+   80cbc:	f2a00980 	movk	x0, #0x4c, lsl #16
    80cc0:	8b000020 	add	x0, x1, x0
    80cc4:	f9000fe0 	str	x0, [sp, #24]
    80cc8:	f94017e0 	ldr	x0, [sp, #40]
@@ -616,8 +616,8 @@ Disassembly of section .text:
    80e30:	d63f0020 	blr	x1
    80e34:	f90017e0 	str	x0, [sp, #40]
    80e38:	f94017e1 	ldr	x1, [sp, #40]
-   80e3c:	d2812000 	mov	x0, #0x900                 	// #2304
-   80e40:	f2a007a0 	movk	x0, #0x3d, lsl #16
+   80e3c:	d2909000 	mov	x0, #0x8480                	// #33920
+   80e40:	f2a003c0 	movk	x0, #0x1e, lsl #16
    80e44:	8b000020 	add	x0, x1, x0
    80e48:	f9000fe0 	str	x0, [sp, #24]
    80e4c:	f94017e0 	ldr	x0, [sp, #40]

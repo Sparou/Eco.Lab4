@@ -93,7 +93,7 @@ void printProgress() {
 
 void Task1() {
     uint64_t currentTime = g_pISysTimer->pVTbl->get_SingleTimerCounter(g_pISysTimer);
-    uint64_t endTime = currentTime +  5000000ul;
+    uint64_t endTime = currentTime +  8000000ul;
     uint64_t changeTime = currentTime;
     g_pIVFB->pVTbl->WriteString(g_pIVFB, 0, 0, 32, write_row, CHARACTER_ATTRIBUTE_FORE_COLOR_WHITTE, "1", 1);
     while ( endTime >= currentTime) {
@@ -109,7 +109,7 @@ void Task1() {
 
 void Task2() {
     uint64_t currentTime = g_pISysTimer->pVTbl->get_SingleTimerCounter(g_pISysTimer);
-    uint64_t endTime = currentTime +  3000000ul;
+    uint64_t endTime = currentTime +  4000000ul;
     uint64_t changeTime = currentTime;
     g_pIVFB->pVTbl->WriteString(g_pIVFB, 0, 0, 32, write_row, CHARACTER_ATTRIBUTE_FORE_COLOR_WHITTE, "2", 1);
     while ( endTime >= currentTime) {
@@ -125,7 +125,7 @@ void Task2() {
 
 void Task3() {
     uint64_t currentTime = g_pISysTimer->pVTbl->get_SingleTimerCounter(g_pISysTimer);
-    uint64_t endTime = currentTime +  8000000ul;
+    uint64_t endTime = currentTime +  5000000ul;
     uint64_t changeTime = currentTime;
     g_pIVFB->pVTbl->WriteString(g_pIVFB, 0, 0, 32, write_row, CHARACTER_ATTRIBUTE_FORE_COLOR_WHITTE, "3", 1);
     while ( endTime >= currentTime) {
@@ -141,7 +141,7 @@ void Task3() {
 
 void Task4() {
     uint64_t currentTime = g_pISysTimer->pVTbl->get_SingleTimerCounter(g_pISysTimer);
-    uint64_t endTime = currentTime +  4000000ul;
+    uint64_t endTime = currentTime +  2000000ul;
     uint64_t changeTime = currentTime;
     g_pIVFB->pVTbl->WriteString(g_pIVFB, 0, 0, 32, write_row, CHARACTER_ATTRIBUTE_FORE_COLOR_WHITTE, "4", 1);
     while ( endTime >= currentTime) {

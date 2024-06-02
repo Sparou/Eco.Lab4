@@ -56,6 +56,8 @@ IEcoSystemTimer1* g_pISysTimer = 0;
 char_t g_strTask[2] = {0};
 uint8_t write_row = 6;
 
+uint32_t times[] = {8, 4, 5, 2};
+
 void TimerHandler(void) {
     //g_pIMutex->pVTbl->Lock(g_pIMutex);
     //g_pISemaphore->pVTbl->Wait(g_pISemaphore, 0);
@@ -93,7 +95,7 @@ void printProgress() {
 
 void Task1() {
     uint64_t currentTime = g_pISysTimer->pVTbl->get_SingleTimerCounter(g_pISysTimer);
-    uint64_t endTime = currentTime +  8000000ul;
+    uint64_t endTime = currentTime + times[0] * 1000000ul;
     uint64_t changeTime = currentTime;
     g_pIVFB->pVTbl->WriteString(g_pIVFB, 0, 0, 32, write_row, CHARACTER_ATTRIBUTE_FORE_COLOR_WHITTE, "1", 1);
     while ( endTime >= currentTime) {
@@ -109,7 +111,7 @@ void Task1() {
 
 void Task2() {
     uint64_t currentTime = g_pISysTimer->pVTbl->get_SingleTimerCounter(g_pISysTimer);
-    uint64_t endTime = currentTime +  4000000ul;
+    uint64_t endTime = currentTime + times[1] * 1000000ul;
     uint64_t changeTime = currentTime;
     g_pIVFB->pVTbl->WriteString(g_pIVFB, 0, 0, 32, write_row, CHARACTER_ATTRIBUTE_FORE_COLOR_WHITTE, "2", 1);
     while ( endTime >= currentTime) {
@@ -125,7 +127,7 @@ void Task2() {
 
 void Task3() {
     uint64_t currentTime = g_pISysTimer->pVTbl->get_SingleTimerCounter(g_pISysTimer);
-    uint64_t endTime = currentTime +  5000000ul;
+    uint64_t endTime = currentTime + times[2] * 1000000ul;
     uint64_t changeTime = currentTime;
     g_pIVFB->pVTbl->WriteString(g_pIVFB, 0, 0, 32, write_row, CHARACTER_ATTRIBUTE_FORE_COLOR_WHITTE, "3", 1);
     while ( endTime >= currentTime) {
@@ -141,7 +143,7 @@ void Task3() {
 
 void Task4() {
     uint64_t currentTime = g_pISysTimer->pVTbl->get_SingleTimerCounter(g_pISysTimer);
-    uint64_t endTime = currentTime +  2000000ul;
+    uint64_t endTime = currentTime + times[3] * 1000000ul;
     uint64_t changeTime = currentTime;
     g_pIVFB->pVTbl->WriteString(g_pIVFB, 0, 0, 32, write_row, CHARACTER_ATTRIBUTE_FORE_COLOR_WHITTE, "4", 1);
     while ( endTime >= currentTime) {
@@ -207,8 +209,6 @@ int16_t EcoMain(IEcoUnknown* pIUnk) {
     uint16_t y1 = 32;
     uint16_t x2 = 70;
     byte_t color = 170; /* 3-3-2 bit RGB */
-
-	uint32_t times[] = {8, 4, 5, 2};
 
     /* Создание экземпляра интерфейсной шины */
     result = GetIEcoComponentFactoryPtr_00000000000000000000000042757331->pVTbl->Alloc(GetIEcoComponentFactoryPtr_00000000000000000000000042757331, 0, 0, &IID_IEcoInterfaceBus1, (void **)&pIBus);

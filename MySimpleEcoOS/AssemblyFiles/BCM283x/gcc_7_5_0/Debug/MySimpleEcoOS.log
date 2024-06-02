@@ -1,4 +1,4 @@
-﻿Build started 02.06.2024 18:06:08.
+﻿Build started 02.06.2024 18:09:58.
      1>Project "G:\Developings\Eco.Lab4\MySimpleEcoOS\AssemblyFiles\BCM283x\gcc_7_5_0\MySimpleEcoOS.vcxproj" on node 2 (build target(s)).
      1>Build:
          make
@@ -20,28 +20,28 @@
            pIScheduler->pVTbl->NewTask(pIScheduler, Task4, times[3], 0x100, &pITask4);
                                                            ^~~~~
          ..\..\..\SourceFiles\MySimpleEcoOS.c:321:50: note: expected 'voidptr_t {aka void *}' but argument is of type 'uint32_t {aka unsigned int}'
-         ..\..\..\SourceFiles\MySimpleEcoOS.c:209:12: warning: unused variable 'color' [-Wunused-variable]
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:211:12: warning: unused variable 'color' [-Wunused-variable]
               byte_t color = 170; /* 3-3-2 bit RGB */
                      ^~~~~
-         ..\..\..\SourceFiles\MySimpleEcoOS.c:208:14: warning: unused variable 'x2' [-Wunused-variable]
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:210:14: warning: unused variable 'x2' [-Wunused-variable]
               uint16_t x2 = 70;
                        ^~
-         ..\..\..\SourceFiles\MySimpleEcoOS.c:207:14: warning: unused variable 'y1' [-Wunused-variable]
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:209:14: warning: unused variable 'y1' [-Wunused-variable]
               uint16_t y1 = 32;
                        ^~
-         ..\..\..\SourceFiles\MySimpleEcoOS.c:206:14: warning: unused variable 'x1' [-Wunused-variable]
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:208:14: warning: unused variable 'x1' [-Wunused-variable]
               uint16_t x1 = 0;
                        ^~
-         ..\..\..\SourceFiles\MySimpleEcoOS.c:205:14: warning: unused variable 'offset' [-Wunused-variable]
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:207:14: warning: unused variable 'offset' [-Wunused-variable]
               uint16_t offset = 0;
                        ^~~~~~
-         ..\..\..\SourceFiles\MySimpleEcoOS.c:204:13: warning: unused variable 'strHello' [-Wunused-variable]
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:206:13: warning: unused variable 'strHello' [-Wunused-variable]
               char_t* strHello = "Hello, World!";
                       ^~~~~~~~
-         ..\..\..\SourceFiles\MySimpleEcoOS.c:186:13: warning: unused variable 'pITask5' [-Wunused-variable]
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:188:13: warning: unused variable 'pITask5' [-Wunused-variable]
            IEcoTask1* pITask5 = 0;
                       ^~~~~~~
-         ..\..\..\SourceFiles\MySimpleEcoOS.c:179:25: warning: unused variable 'pIVrtMem' [-Wunused-variable]
+         ..\..\..\SourceFiles\MySimpleEcoOS.c:181:25: warning: unused variable 'pIVrtMem' [-Wunused-variable]
               IEcoVirtualMemory1* pIVrtMem = 0;
                                   ^~~~~~~~
      1>g:/developings/toolchain/gcc-linaro-7.5.0/bin/../lib/gcc/aarch64-elf/7.5.0/../../../../aarch64-elf/bin/ld.exe : warning : .note.gnu.build-id section discarded, --build-id ignored.
@@ -52,4 +52,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.56
+Time Elapsed 00:00:00.41
